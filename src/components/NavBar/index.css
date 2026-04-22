@@ -1,8 +1,41 @@
-.nav-container{
+.nav-container {
+  height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #FFFFFF;
     color: #333;
+    border-radius: 50px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+.options-lists {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.list-item {
+  height: 30px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.nav-title {
+  font-size: 14px;
+  color: #072635;
+  font-weight: bold;
+}
+.active {
+  background-color: #01f0d0;
 }
