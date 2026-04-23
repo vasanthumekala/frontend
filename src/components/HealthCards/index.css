@@ -1,0 +1,93 @@
+.health-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.health-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+
+.health-card.blue {
+  border-left: 4px solid #e0e7ff;
+  background: linear-gradient(135deg, rgba(224, 231, 255, 0.3) 0%, white 100%);
+}
+
+.health-card.pink {
+  border-left: 4px solid #fce7f3;
+  background: linear-gradient(135deg, rgba(252, 231, 243, 0.3) 0%, white 100%);
+}
+
+.health-card.red {
+  border-left: 4px solid #ffe6e6;
+  background: linear-gradient(135deg, rgba(255, 230, 230, 0.3) 0%, white 100%);
+}
+
+.card-icon {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.card-value {
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #072635;
+}
+
+.card-unit {
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+}
+
+.card-status {
+  margin: 0;
+  font-size: 12px;
+  color: #072635;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .health-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .health-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+.health-card{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.card-icon{
+  width: 60px;
+}
+.img{
+  width: 100%;
+  height: auto;
+}

@@ -58,11 +58,11 @@ function NavBar() {
           </li>
         ))}
       </ul>
-      <div>
-        <img src="https://res.cloudinary.com/dk2bbhmdm/image/upload/v1776879969/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc_2x_kvv0yy.png" />
-        <div>
-          <span className="user-name">Dr. Smith</span>
-          <span className="user-role">Cardiologist</span>
+      <div className="doctor-profile-container">
+        <img className="doctor-image" src="https://res.cloudinary.com/dk2bbhmdm/image/upload/v1776879969/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc_2x_kvv0yy.png" />
+        <div className="doctor-name-container">
+          <span className="user-name">Dr. Jose Simmons</span>
+          <span className="user-role">General Practitioner</span>
         </div>
       </div>
     </nav>

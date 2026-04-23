@@ -1,12 +1,12 @@
 .nav-container {
   height: 8vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #FFFFFF;
-    color: #333;
-    border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 50px;
 }
 
 .logo {
@@ -39,3 +39,27 @@
 .active {
   background-color: #01f0d0;
 }
+.doctor-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.doctor-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.doctor-image {
+  height: 60px;
+  width: 60px;
+}
+.user-role {
+  color: #707070;
+  font-weight: 500;
+}
+.user-name{
+    color: #072635;
+    font-weight: 600;
+}
+

@@ -1,0 +1,61 @@
+.lab-results-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-top: 16px;
+}
+
+.lab-results-card h3 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #072635;
+}
+
+.lab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lab-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.lab-item:hover {
+  background-color: #f0f0f0;
+}
+
+.lab-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.lab-name {
+  font-size: 13px;
+  color: #072635;
+  font-weight: 600;
+  flex: 1;
+}
+
+.download-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.download-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
